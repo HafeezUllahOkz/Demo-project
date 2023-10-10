@@ -1,0 +1,547 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500&family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,500&display=swap");
+
+:root {
+  --bg-color: #fafafa;
+  --svg-bg-color: #3461ff;
+  --pera-color: #666666;
+  --heading-color: #000000;
+  --circle-color:#e0ff22;
+  --icon-color:#3461ff;
+}
+
+body {
+  font-family: "Playfair Display", serif !important;
+  font-family: "Public Sans", sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
+}
+
+/*====== navbar ===== */
+.navbar {
+  text-transform: capitalize;
+  font-size: 1.3rem;
+}
+
+.navbar-brand {
+  text-transform: capitalize;
+  font-size: 3rem;
+}
+/*====== navbar end ===== */
+/* ======== header section======== */
+.header-text #header-heading {
+  text-transform: capitalize;
+  font-size: 5rem;
+  font-weight: 900;
+  line-height: 4.5rem;
+  color: var(--heading-color);
+}
+
+.header-text #header-pera {
+  text-transform: capitalize;
+  color: var(--pera-color);
+}
+/* ======== header section======== */
+/*====== client  section ===== */
+.client {
+  background-color: var(--bg-color);
+  margin-top: 6rem;
+}
+
+.client h2 {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: var(--heading-color);
+}
+
+.client-para {
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  color: var(--pera-color);
+}
+
+.clint-logo {
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 50%;
+}
+/*====== client section end ===== */
+/* ========Ravinue section section====== */
+.ravenu {
+  margin-top: 10rem;
+}
+.rvenue-text h3 {
+  text-transform: capitalize;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--heading-color);
+}
+.rvenue-text p {
+  text-transform: capitalize;
+  color: var(--pera-color);
+}
+
+.ravenu-content h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: var(--heading-color);
+}
+.ravenu-content p {
+  font-size: 1rem;
+  color: var(--pera-color);
+}
+
+.revenue-anchor {
+  margin-top: 5.3rem;
+  font-weight: 900;
+}
+/* ========Ravinue section section====== */
+/*=========== Badges section  =========== */
+.badges-sec {
+  margin-top: 6rem;
+  /* border: 1px solid black; */
+}
+.badges-image{
+    border-radius: 5%;
+    margin: auto;
+}
+.badges-sec .icon{
+    background-color: #3461ff;
+    width: 100px;
+    height: 90px;
+    padding: 0.5rem;
+    border-radius: 20%;
+    text-align: center;
+}
+
+.badges-sec .icon svg{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+.badges-row p{
+  color: var(--pera-color);
+}
+
+.badges-text h2 {
+  text-transform: capitalize;
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--heading-color);
+}
+
+.badges-text p {
+  align-items: center;
+  color: var(--pera-color);
+}
+
+.badges-row{
+/* border: 1px solid black; */
+margin-top: 3.6rem !important;
+}
+#badges-icon{
+  fill: #fafafa;
+}
+/*======== Badges section end ======= */
+/* ======= works section ======= */
+.works {
+  margin-top: 7rem;
+}
+
+.works h3 {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: var(--heading-color);
+}
+
+.works p {
+  text-transform: capitalize;
+  width: 65%;
+  line-height: 2.3rem;
+  color: var(--pera-color);
+}
+
+.works-content h4 {
+  font-size: xx-large;
+  margin-top: 1rem;
+  text-align: center;
+  color: var(--heading-color);
+}
+
+.works-content p {
+  width: 100%;
+  text-align: center;
+  color: var(--pera-color);
+}
+
+.works-pic img {
+  border-radius: 10%;
+}
+.works-pic{
+  display: flex;
+  justify-content: center;
+}
+.works-text {
+  text-align: center;
+}
+.works-text-clm{
+    width: 45% !important;
+}
+.badges-clm{
+    margin-inline-start:auto ;
+}
+.works-btn a {
+  font-size: 1.5rem;
+  padding: 0.8rem !important;
+  color: var(--bg-color) !important;
+  width: 150px;
+}
+
+/*=========== works  section end =======*/
+
+/*=========== start you jurony =======*/
+.jourany {
+  margin-top: 6rem;
+}
+.jourany-row {
+  padding: 4rem 0 4rem 0;
+}
+.journy-text-heading {
+  width: 50%;
+  margin: auto;
+  color: var(--bg-color);
+  /* line-height: 1.5rem; */
+}
+.journy-text-heading h1 {
+  line-height: 4rem;
+}
+.journy-text-pera {
+  width: 85%;
+  text-align: justify;
+  color: var(--bg-color);
+  /* line-height: 1.5rem; */
+}
+.journy-text-pera p {
+  line-height: 2rem;
+}
+/*=========== start you jurony end =======*/
+/*=========== meet our team =======*/
+.meet-sec {
+  margin-top: 10rem;
+}
+.imges {
+  width: 31%;
+}
+.imges img {
+  border-radius: 13% !important;
+}
+.meet-sec-text {
+  /* border: 1px solid black; */
+  width: 90%;
+  margin-inline-start: auto;
+  height: 100%;
+  
+}
+.meet-sec-text h3 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: var(--heading-color);
+}
+.meet-sec-text p {
+  text-transform: capitalize;
+  font-size: 2rem;
+  font-weight: 400;
+  color: var(--pera-color);
+}
+.meet-sec-text small{
+    line-height: 2rem;
+    font-size: 1rem;
+    text-transform: capitalize;
+    /* border: 1px solid black; */
+}
+.meet-sec-text button{
+    /* border: 1px solid black; */
+    margin-bottom: auto;
+    width: 220px;
+    height:63px;
+    font-weight: 400;
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 0;
+}
+/*=========== meet our team end =======*/
+/* ================ what client says ==================*/
+.carosule-content h1{
+  font-size: 2rem;
+  font-weight: 900;
+  margin-top: 10rem;
+  text-transform: capitalize;
+  color: var(--heading-color);
+}
+carosule-content p{
+color: var(--pera-color);
+}
+.card-content img{
+  margin-bottom: 1rem;
+  color: var(--bg-color);
+}
+
+.carasoule-heading1 {
+  color: var(--bg-color);
+  text-transform: capitalize;
+}
+.carosule-pera1{
+font-weight: 300;
+color: var(--bg-color);
+line-height: 2rem;
+text-transform: capitalize;
+}
+.carasoule-heading{
+  color: var(--heading-color);
+  text-transform: capitalize;
+}
+.carosule-pera{
+  font-weight: 300;
+  color: var(--heading-color);
+  line-height: 2rem;
+  text-transform: capitalize;
+  }
+.card {
+  border-radius: 2rem !important;
+}
+
+/* ================ what client says end ==================*/
+/* =============yellow circle================== */
+.circle{
+  margin-top: 10rem;
+  border-radius: 2rem;
+}
+
+.yellow-circle{
+  aspect-ratio: 1/1 ;
+  background-color: var(--circle-color);
+  font-size: 5rem;
+  font-weight: 900;
+}
+.yellow-circle-text{
+  padding-left: 2rem;
+}
+.yellow-circle svg{
+  width: 3rem;
+  font-weight: 900;
+  border: 1px solid white;
+  color: var(--icon-color);
+}
+/* =============yellow circle end================== */
+/* ==================accordians================ */
+.accordians{
+  margin-top: 10rem;
+}
+.accordians-clm{
+  width: 45% !important;
+  margin-left: auto;
+}
+.accordians-text h2{
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: var(--heading-color);
+}
+.accordians-text p{
+  font-size: 1.3rem;
+  font-weight: 300;
+  text-transform: capitalize;
+  margin-top: 2rem;
+  color: #a2a2a2;
+}
+.acordian-lnk{
+  position: absolute;
+  font-size: 1.3rem;
+  font-weight: 900;
+  margin-top: 2rem;
+}
+/* ==================accordians end================ */
+/* ===================Footer================= */
+.foootr{
+  margin-top:8rem;
+}
+.logo-text{
+
+}
+address{
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.ftr-list{
+  list-style: none;
+}
+.ftr-list li{
+  margin-top: 2.2rem;
+  font-weight: 500;
+}
+.social-link svg{
+  margin-right: 10px;
+  font-size: 2rem;
+}
+#oval-1{
+  fill: #3461ff;
+}
+
+/* ===================Footer end================= */
+
+
+/*===================== media-queries ================ */
+@media screen and (max-width: 1200px) {
+  .header-text #header-heading {
+    font-size: 3rem;
+    font-weight: 900;
+  }
+  .imges {
+    width: 30%;
+  }
+  .works-text-clm img{
+    height: 330px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .ravenu-content h1{
+    font-size: 2.5rem;
+  }
+  .badges-text h2{
+    font-size: 2.5rem;
+  }
+  .meet-sec-text button{
+    position: relative;
+    margin-top: 1.5rem;
+  }
+  .carasoule-heading1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .carasoule-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .client-cards{
+    padding-top: 1.5rem;
+  }
+  .yellow-circle-text h1{
+    font-size: 3rem;
+  }
+  .accordians-text h2{
+    font-size: 2.5rem;
+  }
+  .accordians-text p{
+    margin-top: 0.5rem;
+  }
+
+}
+
+@media screen and (max-width: 767px){
+   .header-image img{
+    width: 100% !important;
+    margin-top: 3rem !important;
+  }
+  .ravenu{
+    margin-top: 6rem;
+  }
+  .works-text-clm{
+    width: 100% !important;
+  }
+  .badges-image{
+    text-align: center;
+    margin-bottom: 6rem;
+  }
+  .badges-clm .badges-row{
+   text-align: center !important;
+   align-items: center !important;
+  }
+  .badges-row .icon{
+margin: auto;
+  }
+  .works{
+    margin-top: 6rem;
+  }
+  .journy-text-heading{
+    width: 100%;
+    text-align: center;
+    margin:2rem 0rem !important;
+  }
+  .yellow-circle{
+    width: 70% !important;
+    margin: 3rem 0 0 4.8rem;
+    justify-content: center;
+  }
+  .accordians-clm{
+    width: 100% !important;
+    margin-top: 6rem !important;
+  }
+  .imges{
+    width: 30%;
+  }
+  .ravenu-content h1{
+    text-align: center;
+  }
+  .rvenue-text{
+    text-align: center;
+    margin-top: 2rem;
+
+  }
+  .ravenu-content p{
+    text-align: center;
+  }
+  .revenue-anchor{
+    margin-top: auto;
+  }
+  .clint-text{
+    justify-content: center;
+  }
+ 
+.carasoule-heading1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.carasoule-heading{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.client-cards{
+  padding-top: 1.5rem;
+}
+.meet-sec-text button{  
+  width: 220px;
+  height:63px;
+  font-weight: 400;
+  font-size: 1.5rem;
+  position: relative;
+  margin-top: 1.5rem !important;
+}
+.meet-sec-text{  
+  margin-top: 5.5rem !important;
+}
+}
+
+@media screen and (max-width: 426px){
+  .client-heading h2{
+    text-align: center;
+  }
+  .clint-logo .logo{
+    margin: auto;
+    margin-top: 2rem;
+  }
+  .journy-text-heading h1{
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  .journy-text-pera{
+    margin: auto;
+  }
+}
